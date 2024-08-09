@@ -9,7 +9,7 @@ mindmap
     glob("**GLOBAL COMPUTATION:**<br />depends on data which is visible to all network participants")
 ```
 
-![trust infrastructure app anatomy.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/aab65781-8063-45bd-b48a-8726c0c69da7/d747e4bf-8078-4d63-b53c-bbb58d50dcc6/trust_infrastructure_app_anatomy.png)
+<img src="trust infrastructure app anatomy.png" />
 
 # Introduction
 
@@ -184,7 +184,7 @@ A trusted execution environment (TEE) is an area on the main processor of a de
 
 [[source](https://www.techtarget.com/searchitoperations/definition/trusted-execution-environment-TEE)]
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3ef73811-dcbb-4ebb-a600-663cf7e15871/Untitled.png)
+![sgx graphic](sgx_graphic.png)
 
 While there is a spectrum of functionality across TEEs, the most general case is something like the above. The trusted execution environment is physically isolated from the rest of the hardware. OS and all interfaces into shared RAM, disk etcetera ensure the information is first encrypted, either using hardware keys or some provisioned key that only the trusted environment can access.
 
