@@ -1,0 +1,10 @@
+[book]
+authors = ["Goblin Oats", "grjte"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Knot Wiki"
+description = "Wiki on Trust Infrastructure, Programmable Cryptography, Programmable Privacy, and other Advanced Decentralisation Technologies"
+
+[build]
+create-missing = false
