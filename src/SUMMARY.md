@@ -1,0 +1,16 @@
+# Summary
+
+- [Introduction](./introduction/index.md)
+- [Building applications](./building/index.md)
+    - [Attested data](./building/attested-data.md)
+    - [Independent computation](./building/independent-computation.md)
+    - [Mediated computation](./building/mediated-computation.md)
+    - [Global computation](./building/global-computation.md)
+    - [Primitives, tools, and platforms](./building/primitives-tools-platforms.md)
+- [Applications](./applications/index.md)
+    - [Live applications](./applications/live.md)
+    - [Theoretical applications](./applications/theoretical.md)
+- [Research](./research/index.md)
+    - [Literature](./research/literature.md)
+    - [Open questions](./research/questions.md)
+- [Contribute](./contribute.md)
