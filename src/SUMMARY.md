@@ -2,7 +2,9 @@
 
 - [Introduction](./introduction/index.md)
 - [Building applications](./building/index.md)
-    - [Attestations](./building/attestations.md)
+    - [Attestations](./building/attestations/index.md)
+        - [Sources of base attestations](./building/attestations/sources.md)
+        - [Tools for manipulating attestations](./building/attestations/tools.md)
     - [Independent computation](./building/independent-computation.md)
     - [Mediated computation](./building/mediated-computation.md)
     - [Global computation](./building/global-computation.md)

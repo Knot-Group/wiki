@@ -20,7 +20,7 @@ There is currently no generic widely-used framework for how attestations are pro
 ## Producing attestations
 
 Attestations can be created in two ways:
-1. A trusted source issues a new attestation, for example by cryptographically signing a claim, performing a verifiable computation (e.g. zk proof) that does not require verifiable inputs, or adding a person to a private membership group and issuing an inclusion proof. Sources of attestations can be anything from a government (electronic ID) to an individual to a device. We'll call attestations that rely directly on a trusted source "base" attestations.
+1. A trusted source issues a new attestation, for example by cryptographically signing a claim, performing a verifiable computation (e.g. zk proof) that does not require verifiable inputs, or adding a person to a private membership group and issuing an inclusion proof. Sources of attestations can be anything from a government (electronic ID) to an individual to a device. We call attestations that rely directly on a trusted source ["base" attestations](./sources.md).
 2. A new attestation can also be created by [transforming an existing attestation](#transforming-attestations), for example by redacting or processing the original claim.
 
 ## Consuming attestations
@@ -35,7 +35,7 @@ Attestations can be transformed by first consuming the attestation and then prod
 
 Given a base attestation, the general transformation process is to verify the cryptographic proof of the base attestation (consume the attestation) and then compute the transformed claim from the base claim inside a zk circuit.
 
-For example, ZK Email transforms (signed) emails into attestations to more specific claims that are contained in those emails by first verifying the email's DKIM signature, then using zkregex to prove that the transformed claim is contained in the email.
+For example, ZK Email transforms (signed) emails into attestations to more specific claims that are contained in those emails by first verifying the email's DKIM signature, then proving that the transformed claim is contained in the email body and that the hashed email body is the same as the hash in the signed email header.
 
 ## Composing attestations
 
@@ -44,44 +44,6 @@ There is no framework that we know of for composing attestations, so this can on
 ## Portability
 
 Because there is no well-defined framework for issuing, consuming, and manipulating attestations, they are not easily portable, and incorporating attestations into an application currently requires custom solutions, although the [tools listed below](#tools-for-transforming--creating-attestations) reduce this workload in many cases.
-
-## Sources of base attestations
-
-- [Apple’s App Attest](https://developer.apple.com/documentation/devicecheck/establishing-your-app-s-integrity)
-- Camera Files
-    - [Content Credentials](https://contentcredentials.org/)
-- Credit Card Transactions via [EMV](https://en.wikipedia.org/wiki/EMV)
-- Emails via [DKIM signatures](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail)
-- [Ethereum Attestation Service](https://attest.org/), including:
-    - [Coinbase](https://help.coinbase.com/en/coinbase/getting-started/verify-my-account/onchain-verification)
-    - [Gitcoin Passport](https://passport.gitcoin.co/)
-    - [Optimism Bedrock](https://docs.optimism.io/chain/identity/contracts-eas)
-    - [and more…](https://attest.org/ecosystem)
-- [Git Commits](https://docs.github.com/en/authentication/managing-commit-signature-verification)
-- Electronic ID:
-    - [Biometric Passports (ePassports)](https://en.wikipedia.org/wiki/Biometric_passport)
-    - Many government ID Cards:
-        - [A global list of countries with eID](https://en.wikipedia.org/wiki/Electronic_identification)
-        - EU [Residence Cards](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32017R1954) for foreign nationals
-        - [eIDAS](https://digital-strategy.ec.europa.eu/en/policies/eidas-regulation) (future electronic id cards for EU citizens)
-        - [India (Aadhar)](https://en.wikipedia.org/wiki/Aadhaar)
-        - [Japan (My Number Card)](https://en.wikipedia.org/wiki/Individual_Number_Card)
-        - [Taiwan](https://github.com/moda-gov-tw/tw-did)
-- Mobile App Data
-- [NFC Chips](https://en.wikipedia.org/wiki/Near-field_communication)
-- Onchain Data
-- PDFs via [Docusign](https://www.docusign.com/how-it-works/electronic-signature/digital-signature/digital-signature-faq)
-- [Semaphore](https://docs.semaphore.pse.dev/) group membership
-- ZK proofs attest to computation results
-
-## Tools for manipulating attestations (producing, transforming, consuming)
-
-- [Proof-Carrying Data SDK](https://github.com/proofcarryingdata/zupass) by the [PCD Team](https://pcd.team/)
-- Web proofs: by default, data received over TLS cannot be shared in a verifiable manner, but several projects aim to add a protocol on top of TLS to make the received data verifiable.
-    - [TLS Notary](https://tlsnotary.org/)
-    - [Pluto](https://pluto.xyz/)
-    - [Reclaim Protocol](https://www.reclaimprotocol.org/)
-- [zkEmail](https://prove.email/) is a highly flexible tool to transform signed emails into attestations to specific claims contained within those emails.
 
 ## References
 
