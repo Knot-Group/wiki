@@ -2,7 +2,7 @@
 
 - [Introduction](./introduction/index.md)
 - [Building applications](./building/index.md)
-    - [Attested data](./building/attested-data.md)
+    - [Attestations](./building/attestations.md)
     - [Independent computation](./building/independent-computation.md)
     - [Mediated computation](./building/mediated-computation.md)
     - [Global computation](./building/global-computation.md)
