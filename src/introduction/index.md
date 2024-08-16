@@ -1,21 +1,21 @@
-# Introduction
-
-Welcome to the Knot Group Wiki on Trust Infrastructure, Programmable Cryptography and other Advanced Decentralisation Technologies.
-
-```mermaid
-mindmap
-  root(TRUST INFRASTRUCTURE<br />APP ANATOMY)
-    data("**VERIFIABLE DATA:**<br />data that is signed by the relevant source of trust")
-    ind("**INDEPENDENT COMPUTATION:**<br />depends on public data or private data that is known by the computation executor")
-    med("**MEDIATED COMPUTATION:**<br />depends on private data from 2 or more sources")      
-    glob("**GLOBAL COMPUTATION:**<br />depends on data which is visible to all network participants")
-```
-![trust_infrastructure_app_anatomy](../assets/trust_infrastructure_app_anatomy.png)
+![Knot Group Logo](../images/knot-dot-logo-transparent.png)
 
 # Introduction
 
-This wiki aims to present a live overview of the technology and application landscape outlined above. Throughout this document, we use the computational framework from [SoK: Programmable Privacy in Distributed Systems](https://eprint.iacr.org/2024/982.pdf) which is represented in the mindmap.
+Welcome to the wiki on programmable cryptography over advanced decentralisation technologies for novel, emergent applications. 
+
+# Why Wiki 
+
+1. A single channel to surface the latest projects, tools, and resources related to the above category. 
+2. Education on how these technologies may be used to build novel applications.
+3. Coverage on emergent use cases for these technologies.
+
+We use the computational framework from [SoK: Programmable Privacy in Distributed Systems](https://eprint.iacr.org/2024/982.pdf) to organize the structure of applications and associated technologies. 
+
+# Contribution 
+
+If you would like to contribute to the wiki, we would be happy to see a pull request from you. There are no major guidelines other than to keep things tidy. Make your changes succinct and targeted.
 
 # Contact
 
-The Knot-Group is headed by Goblin Oats, grjte and their friends. If you are a friend of a friend and would like to get in touch then please reach out to [Tonk](https://tonk.xyz).
+The Knot Group is headed by Goblin Oats, Grjte and their friends. If you are a friend of a friend and would like to get in touch with us then please reach out to [Tonk](https://tonk.xyz).

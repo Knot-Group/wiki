@@ -3,8 +3,8 @@ authors = ["Goblin Oats", "grjte"]
 language = "en"
 multilingual = false
 src = "src"
-title = "Knot Wiki"
-description = "Wiki on Trust Infrastructure, Programmable Cryptography, Programmable Privacy, and other Advanced Decentralisation Technologies"
+title = "Knot Group Wiki"
+description = "Wiki on programmable cryptography over advanced decentralisation technologies for novel, emergent applications. "
 
 [build]
 create-missing = false

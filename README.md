@@ -1,6 +1,6 @@
-# Knot Wiki
+# Knot Group Wiki
 
-This repository is a living document to track discussions, projects, learnings, educational material, tooling, etc around Trust Infrastructure, Programmable Cryptography and Advanced Decentralisation Technology.
+Wiki on Trust Infrastructure, Programmable Cryptography, Programmable Privacy, and other Advanced Decentralisation Technologies. This is a living document.
 
 ## Run locally
 
