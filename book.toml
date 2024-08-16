@@ -4,7 +4,7 @@ language = "en"
 multilingual = false
 src = "src"
 title = "Knot Group Wiki"
-description = "Wiki on programmable cryptography over advanced decentralisation technologies for novel, emergent applications. "
+description = "Programmable cryptography and advanced decentralisation technologies for novel, emergent applications. "
 
 [build]
 create-missing = false

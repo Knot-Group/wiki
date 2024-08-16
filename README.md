@@ -1,6 +1,12 @@
 # Knot Group Wiki
 
-Wiki on Trust Infrastructure, Programmable Cryptography, Programmable Privacy, and other Advanced Decentralisation Technologies. This is a living document.
+Welcome to the wiki on 
+- programmable cryptography 
+- and advanced decentralisation technologies 
+- for novel, emergent applications
+
+
+This is a living document.
 
 ## Run locally
 
