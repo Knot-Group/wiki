@@ -5,4 +5,6 @@
     - [TLS Notary](https://tlsnotary.org/)
     - [Pluto](https://pluto.xyz/)
     - [Reclaim Protocol](https://www.reclaimprotocol.org/)
-- [zkEmail](https://prove.email/) is a highly flexible tool to transform signed emails into attestations to specific claims contained within those emails.
+- [zkEmail](https://prove.email/) is a highly flexible tool to transform signed emails into attestations to specific claims contained within those emails. 
+- [Gribi](https://github.com/tonk-gg/gribi) The Gribi interface allows for independent cryptosystems to more easily link together functionality without directly coordinating.
+

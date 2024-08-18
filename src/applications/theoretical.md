@@ -4,21 +4,25 @@
 
 Embed hidden watermarks in media and then prove correct “retrieval” using ZKML or other as evidence for legal action.
 
-## Proof of Exploit
-
-Prove you found an exploit without revealing the exploit, useful for payment
+[Source](https://profs.scienze.univr.it/~giaco/download/Watermarking-Obfuscation/zero-knowledge%20watermark%20detection.pdf)
 
 ## Loyalty Rewards
 
 Members earn rewards through behavior such as purchases.
 
-## RWA Tokenization
+[Source](https://ethglobal.com/showcase/themis-zkml-loyalty-azin8)
 
-Relies on ability to bridge Web2 and Web3 world, for example, using PDFs with Docusign.
+## RWA Verified On-Chain
 
-## Web3 Vampire Attacks
+Jiritsu is a cutting-edge Layer 1 blockchain with a native ZK-MPC oracle designed for real-world assets. May be realized, but the technology is proprietary.
 
-token to user X if they perform action Z
+[Source](https://www.jiritsu.network/technology)
 
-## References
+## Web2 Vampire Attacks
+
+Airdrop a token to user X if they perform action Z on a web2 platform.
+
+## External References
 [47 use cases to save humanity](https://azt3c-st.webflow.io/blog/can-blockchains-and-zero-knowledge-help-humanity-survive-47-real-world-use-cases?utm_source=substack&utm_medium=email)
+
+[Cursive Ideas and Moonshots](https://github.com/cursive-team/ideas-and-moonshots)

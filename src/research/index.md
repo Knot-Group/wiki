@@ -9,4 +9,4 @@ The research section focuses primarily on research concerning the labels in bold
 # Out of Scope 
 For the moment, **Indistinguishability Obfuscation** and **Witness Encryption** are completely out of reach, although techniques for witness encryption in some limited forms do exist. 
 
-**Quantum Cryptography** promises some very [weird capabilities](https://en.wikipedia.org/wiki/Quantum_money). However, we are still sufficiently far off from widespread quantum computing.
+**Quantum Cryptography** promises some very [weird capabilities](https://en.wikipedia.org/wiki/Quantum_money). However, we are still sufficiently far off from widespread quantum computing to warrant coverage.
