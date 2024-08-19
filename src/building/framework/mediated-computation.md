@@ -65,3 +65,6 @@ Overall, trusted execution environments are an appealing option to faciliate sha
 
 - [The Secret to Understanding MPC (Bain Capital Crypto Whiteboard Series with David Wong)](https://www.youtube.com/watch?v=L_ND1YPmI5E)
 - [Pragmatic MPC](https://securecomputation.org/)
+- [Secure Multi-Party Computation](https://mirror.xyz/privacy-scaling-explorations.eth/v_KNOV_NwQwKV0tb81uBS4m-rbs-qJGvCx7WvwP4sDg)
+- [Do All Roads Lead To MPC? Exploring The End-Game For Privacy Infrastructure](https://equilibrium.co/writing/do-all-roads-lead-to-mpc)
+- [A High-Level Technical Overview of Fully Homomorphic Encryption](https://www.jeremykun.com/2024/05/04/fhe-overview/)

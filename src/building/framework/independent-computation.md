@@ -1,6 +1,6 @@
 # Independent Computation
 
-Independent computation is done by a single entity, so only that entity needs access to input data. Zero-Knowledge Proofs can be used to maintain privacy over the input data.
+Independent computation is done by a single entity, so only that entity needs access to input data, which can be private, public, or both. This means that independent computation can be used to keep data private from other actors and parts of the application architecture.
 
 ![Independent computation](../../images/independent-computation.png)
 
@@ -8,7 +8,9 @@ Independent computation is done by a single entity, so only that entity needs ac
 
 **Use in Trust Infrastructure**
 
-Zero knowledge proofs are useful for when private inputs are known and we want to reveal either some statement over those inputs or to selectively reveal only part of the statement.
+Zero knowledge proofs are useful for when private inputs are known by the entity doing the computation and we want to reveal either some statement over those inputs or to selectively reveal only part of the statement.
+
+Privacy is maintained when the user is able to compute a proof over their data themselves, which is supported by client-side proving systems. In cases where computation is too heavy for end users, private data can be shared with a prover network for the independent computation stage, introducing a trust assumption on that system.
 
 ## Commitment schemes
 
