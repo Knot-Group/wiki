@@ -17,4 +17,4 @@ We use the computational framework from [SoK: Programmable Privacy in Distribute
 
 # Contact 
 
-The Knot Group is headed by Goblin Oats, Grjte and their friends. If you are a friend of a friend and would like to get in touch with us then please reach out to [Tonk](https://tonk.xyz).
+The Knot Group is headed by Goblin Oats, grjte and their friends. If you are a friend of a friend and would like to get in touch with us then please reach out to [Tonk](https://tonk.xyz).
