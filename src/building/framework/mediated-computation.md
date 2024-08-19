@@ -2,19 +2,7 @@
 
 Mediated computation is used when the input data originates with multiple parties and must be kept private from all other parties. A variety of technologies can be used to achieve private mediated computation, and these can also often be combined together or with ZKPs, depending on the requirements of the application.
 
-```mermaid
-mindmap
-  med("**MEDIATED COMPUTATION:**<br />depends on private data from 2 or more sources")
-      ("**Secure multi-party computation (MPC):**<br />jointly compute over private inputs of all parties")
-	      (Threshold Signatures)
-	      (Yao's Garbled Circuits)
-	      ("Private Set Intersection (PSI)")
-	      ("and more...")
-      ("**Homomorphic encryption (HE/FHE):**<br />compute over encrypted data")
-	      ("Private Information Retrieval (PIR)")
-	      ("and more...")
-      ("**Trusted execution environments (TEEs):**<br />compute on secure trusted hardware, which must be given access to the private data")
-```
+![Mediated computation](../../images/mediated-computation.png)
 
 ## Homomorphic Encryption
 

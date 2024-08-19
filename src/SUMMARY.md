@@ -5,7 +5,7 @@
     - [Attestations](./building/attestations/index.md)
         - [Sources of base attestations](./building/attestations/sources.md)
         - [Tools for manipulating attestations](./building/attestations/tools.md)
-    - [Framework](./building/framework/index.md)
+    - [Computation framework](./building/framework/index.md)
         - [Independent computation](./building/framework/independent-computation.md)
         - [Mediated computation](./building/framework/mediated-computation.md)
         - [Global computation](./building/framework/global-computation.md)

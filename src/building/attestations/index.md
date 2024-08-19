@@ -1,4 +1,5 @@
 # Attestations (verifiable claims)
+![Attestations](../../images/attestations.png)
 
 Attestations are verifiable claims which consist of a statement and a cryptographic proof of that statement. Examples include biometric passports which are cryptographically signed by the issuing government, emails with DKIM signatures by the sending server, claims of group membership with accompanying Merkle inclusion proofs, and computation outputs with accompanying zero-knowledge proofs.
 
