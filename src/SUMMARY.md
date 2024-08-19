@@ -9,6 +9,7 @@
         - [Independent computation](./building/framework/independent-computation.md)
         - [Mediated computation](./building/framework/mediated-computation.md)
         - [Global computation](./building/framework/global-computation.md)
+    - [Design patterns](./building/design-patterns.md)
     - [Resources](./building/resources/index.md)
         - [Tools](./building/resources/tools.md)
         - [Platforms and Products](./building/resources/platforms-and-products.md)

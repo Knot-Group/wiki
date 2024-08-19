@@ -2,10 +2,6 @@
 
 (informally: “Commit-Reveal”)
 
-**Use in Trust Infrastructure**
-
-Commitments are a common cryptographic primitive. Think of it like putting a message in a locked box and then giving the box to a receiver. Later, the receiver can open the box when the sender gives them a key.
-
 **Technical Description**
 
 Commitment schemes consist of two phases:
@@ -17,9 +13,18 @@ Commitment schemes consist of two phases:
 
 ## Zero-Knowledge Proofs
 
-**Use in Trust Infrastructure**
+A zero-knowledge proof is a way of proving the validity of a statement without revealing the statement itself. The ‘prover’ is the party trying to prove a claim, while the ‘verifier’ is responsible for validating the claim.
 
-Zero knowledge proofs are useful for when private inputs are known and we want to reveal either some statement over those inputs or to selectively reveal only part of the statement.
+A zero-knowledge proof of some statement must satisfy three properties:
+
+**Completeness**: 
+if the statement is true, an honest verifier (that is, one following the protocol properly) will be convinced of this fact by an honest prover.
+
+**Soundness**:
+if the statement is false, no cheating prover can convince an honest verifier that it is true, except with some small probability.
+
+**Zero-knowledge**: 
+if the statement is true, no verifier learns anything other than the fact that the statement is true. In other words, just knowing the statement (not the secret) is sufficient to imagine a scenario showing that the prover knows the secret. This is formalized by showing that every verifier has some simulator that, given only the statement to be proved (and no access to the prover), can produce a transcript that "looks like" an interaction between an honest prover and the verifier in question.
 
 ## References
 
@@ -33,7 +38,17 @@ Zero knowledge proofs are useful for when private inputs are known and we want t
 
 ## Homomorphic Encryption
 
-Homomorphic encryption is a form of encryption that allows computations to be performed on encrypted data without first having to decrypt it.
+Homomorphic encryption is a form of encryption that allows computations to be performed on encrypted data without first having to decrypt it. There are multiple types of encryption schemes that can perform different classes of computations over encrypted data
+
+**Partially homomorphic:** encryption encompasses schemes that support the evaluation of circuits consisting of only one type of gate, e.g., addition or multiplication.
+
+**Somewhat homomorphic:** encryption schemes can evaluate two types of gates, but only for a subset of circuits.
+
+**Leveled fully homomorphic:** encryption supports the evaluation of arbitrary circuits composed of multiple types of gates of bounded (pre-determined) depth.
+
+**Fully homomorphic:** encryption (FHE) allows the evaluation of arbitrary circuits composed of multiple types of gates of unbounded depth and is the strongest notion of homomorphic encryption.
+
+[Source](https://en.wikipedia.org/wiki/Homomorphic_encryption)
 
 ## Secure Multi-Party Computation (MPC)
 
@@ -82,7 +97,7 @@ This means, in practice, a TEE allows for fully confidential, tamper-proof compu
 
 Combining TEEs with MPC can be a powerful combination when stronger decentralisation guarantees are a requirement and may ameliorate some of the central party risks involved.
 
-In theory, the provider will not be able to see the data or know what the code is computing. However, in practice, physical access to the device does offer unique attack vectors which are less present in the purely cryptographic schemes. Furthermore, the semiconductor industry is tightly controlled. Relying on a few chip manufacturers to securitise the world’s information (even under the presence of auditors) comes with unique risks. Furthermore (and for that reason), in the context of crypto TEEs may be “memetically suboptimal”, as [suggested](https://ethresear.ch/t/2fa-zk-rollups-using-sgx/14462) by Justin Drake. We also recommend this counterview from [Andrew Miller](https://www.youtube.com/watch?v=4qgPd5kcwBs).
+In theory, the provider will not be able to see the data or know what the code is computing. However, in practice, physical access to the device does offer unique attack vectors which are less present in the purely cryptographic schemes. Furthermore, the semiconductor industry is tightly controlled. Relying on a few chip manufacturers to securitise the world’s information (even under the presence of auditors) comes with unique risks. Furthermore (and for that reason), in the context of crypto, TEEs may be “memetically suboptimal” as [suggested](https://ethresear.ch/t/2fa-zk-rollups-using-sgx/14462) by Justin Drake. We also recommend this counterview from [Andrew Miller](https://www.youtube.com/watch?v=4qgPd5kcwBs).
 
 Already TEEs are widely available in mobile phones, but generally limited to supporting biometric ID — for example Apple’s [SecureEnclave](https://developer.apple.com/documentation/cryptokit/secureenclave). Cloud computing platforms are beginning to offer secure, isolated compute environments to their customers.
 
@@ -92,3 +107,4 @@ Overall, trusted execution environments are an appealing option to faciliate sha
 
 - [The Secret to Understanding MPC (Bain Capital Crypto Whiteboard Series with David Wong)](https://www.youtube.com/watch?v=L_ND1YPmI5E)
 - [Pragmatic MPC](https://securecomputation.org/)
+- [FHE.org](https://fhe.org/)
