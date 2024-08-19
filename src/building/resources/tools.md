@@ -3,6 +3,8 @@
 Tools are meant for a particular function and by themselves are incomplete. Tools are agnostic of how or where they are used.
 
 # Web Data Provenance
+![TLS Notary framework](../../images/tls-notary-framework.png)
+
 | Name | Summary | Limitations | Notes | Link |
 |--|--|--|--|--|
 |Zeko| Collect commitments from web2 platforms for private airdrop | | | | [Link](https://github.com/enricobottazzi/Zeko) |

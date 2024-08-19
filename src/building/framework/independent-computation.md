@@ -2,12 +2,7 @@
 
 Independent computation is done by a single entity, so only that entity needs access to input data. Zero-Knowledge Proofs can be used to maintain privacy over the input data.
 
-```mermaid
-mindmap
-	ind("**INDEPENDENT COMPUTATION:**<br />depends on public data or private data that is known by the computation executor")
-      ("**Zero-Knowledge Proofs (ZKPs):**<br />for verifiable computation with known private inputs")
-      ("****Commitment schemes**** (aka commit-reveal)")
-```
+![Independent computation](../../images/independent-computation.png)
 
 ## Zero-Knowledge Proofs
 

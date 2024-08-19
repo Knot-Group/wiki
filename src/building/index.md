@@ -11,7 +11,7 @@ A major goal of this wiki is to provide a reference for existing patterns and to
 
 We can think about application design that leverages programmable cryptography in terms of the affordances that programmable cryptography enables, the interactivity requirements between actors in the system, and how private data is shared and managed. 
 
-We use the framework introduced in the [Programmable Privacy SoK](https://eprint.iacr.org/2024/982.pdf), which noted that existing applications with programmable privacy have 3 phases of computation: independent, mediated, and global.
+We use the computation framework introduced in the [Programmable Privacy SoK](https://eprint.iacr.org/2024/982.pdf), which noted that existing applications with programmable privacy have 3 phases of computation: independent, mediated, and global.
 
 - Independent computation is performed by a single entity and depends on input data that is either public or private but known to that entity (*personal* private data)
 - Mediated computation is used when private data from multiple sources must interact or be combined without being revealed. 
