@@ -18,4 +18,7 @@
 - [Research](./research/index.md)
     - [Literature](./research/literature.md)
     - [Open questions](./research/questions.md)
+- [Learning](./learning/index.md)
+    - [Definitions](./learning/definitions.md)
+    - [Resources](./learning/resources.md)
 - [Contribute](./contribute.md)
