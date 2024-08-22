@@ -1,5 +1,18 @@
 # Realized
 
+## Nosh Delivery
+Decentralized Food Delivery Cooperative with bootstrapped reputation off existing sharing economy/social trust platforms.
+
+[Source](https://x.com/noshdelivery?lang=en)
+
+## ThatsMe
+Prove your identity on social media. 
+
+[Source](https://thatsme.xyz/)
+
+## Daisy
+Find other influencers to work together on Instagram/TikTok advertising campaigns. 
+
 ## OP Stack RPGF
 
 ZK circuits for Optimism RPGF allocator
