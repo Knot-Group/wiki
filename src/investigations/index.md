@@ -2,9 +2,10 @@
 
 This is where we keep track of active investigations into *open questions*.
 
-### Mobile Proving
+### [Mobile Proving](./pages/mobile-proving.html)
 ### Composing Attestations
 ### Failure Modes
+### ProgCrypto: Risks and Opportunities
 
 
 ## Open Questions

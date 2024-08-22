@@ -21,4 +21,5 @@
     - [Literature](./learning/literature.md)
     - [Resources](./learning/resources.md)
 - [Investigations](./investigations/index.md)
+    - [Mobile Proving](./investigations/pages/mobile-proving.md)
 - [Contribute](./contribute.md)
