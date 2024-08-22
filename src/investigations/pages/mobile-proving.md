@@ -39,7 +39,7 @@ For Noir (or tooling which uses a universal trusted setup) will require a SRS. T
 ## Future Work
 
 **Collaborative zkSNARKs**
-We can potentially generate the witness locally, but offload the majority of the proving computation to a server.
+We can potentially generate the witness locallyand offload the majority of the computation to a proving committee.
 
 **Simplifying Recursion** 
 Automating the process of splitting proofs into multiple proofs and aggregating them at the end would streamline the developer flow in mobile proving. o1js is a good reference for how to do this recursion in a developer friendly way.
