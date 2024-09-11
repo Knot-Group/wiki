@@ -14,7 +14,7 @@ History tells us this phenomenon is present in every innovation cycle. It means 
 ## Trust Infrastructure
 The closest we have is a nascent term for an unknown portion of the application space carved out by programmable cryptography and advanced decentralisation technologies called *Trust Infrastructure*. This application space is motivated by a need to establish trust between people and systems. 
 
-What is Trust Infrastructure? [Arnaud Schenck writes](https://gestalt.cafe/trust-infrastructure/):
+What is Trust Infrastructure? [Arnaud Schenk writes](https://gestalt.cafe/trust-infrastructure/):
 
 >our goal should be to find ways to increase the surface area for trust building once again. We need new trust infrastructure, adapted to the world as it is.
 
