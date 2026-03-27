@@ -47,4 +47,5 @@ Platforms or products offer out of the box solutions and typically come with var
 | ---- | ------- | ----------- | ----- |
 | OpenPassport | an identity wallet based on a government-issued ID such as your passport | | [Link](https://github.com/zk-passport/proof-of-passport) |
 | zuPass | software for storing and managing your cryptographic data | | [Link](https://github.com/proofcarryingdata/zupass) |
-| Rarime | a MetaMask Snap that safely holds any of your credentials and allows you to prove your identity without revealing any personal data. | | [Link](https://github.com/rarimo/rarime) |
+| Rarimo App | a self-sovereign identity app that uses government-issued IDs (e.g. passports) to generate zero-knowledge proofs, allowing users to prove facts like citizenship, age, or uniqueness without revealing personal data or relying on centralized identity providers| | [Link]() | 
+| Rarime | a MetaMask Snap that safely holds any of your credentials and allows you to prove your identity without revealing any personal data. | | [Link](https://docs.rarimo.com/rarimo-app/) |
